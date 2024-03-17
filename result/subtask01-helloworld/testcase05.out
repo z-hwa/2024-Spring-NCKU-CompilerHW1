@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 CHAR_LIT 	 'H'
 SHL
@@ -35,9 +39,16 @@ CHAR_LIT 	 '!'
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 RETURN
 INT_LIT  	 0
 ';'
 '}'
+=======
+RETURN
+INT_LIT  	 0
+';'
+'}'
+>>>>>>> main
 
 Total line: 4

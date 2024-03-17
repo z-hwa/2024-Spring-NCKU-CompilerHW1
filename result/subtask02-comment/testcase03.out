@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 COMMENT  	 // comment
 MULTI_COMMENT 	 /*
 multi comment
@@ -10,6 +11,20 @@ MULTI_COMMENT 	 /**
  */
 MULTI_COMMENT 	 /*Flowing multi comment*/
 COMMENT  	 //Flowing comment
+=======
+COMMENT  	 // comment
+/*
+multi comment
+	Tab \t
+    Space
+* star *MULTI_COMMENT 	 
+*/
+/**
+ *MULTI_COMMENT 	  Cool multi comment
+ */
+MULTI_COMMENT 	 /*Flowing multi comment*/
+COMMENT  	 //Flowing comment
+>>>>>>> main
 INT_T
 IDENT    	 main
 '('
@@ -19,6 +34,7 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
 COUT
 SHL
 STRING_LIT 	 "Hello World!"
@@ -26,3 +42,12 @@ STRING_LIT 	 "Hello World!"
 '}'
 
 Total line: 13
+=======
+COUT
+SHL
+STRING_LIT 	 "Hello World!"
+';'
+'}'
+
+Total line: 6
+>>>>>>> main

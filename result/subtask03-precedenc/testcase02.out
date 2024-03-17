@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 '('
 INT_LIT  	 3
@@ -17,8 +21,12 @@ MUL
 '('
 INT_LIT  	 5
 ADD
+<<<<<<< HEAD
 SUB
 INT_LIT  	 8
+=======
+INT_LIT  	 -8
+>>>>>>> main
 ')'
 SUB
 INT_LIT  	 10
@@ -28,7 +36,11 @@ INT_LIT  	 7
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 '('
 INT_LIT  	 3
@@ -38,30 +50,50 @@ MUL
 '('
 INT_LIT  	 5
 ADD
+<<<<<<< HEAD
 SUB
 INT_LIT  	 8
+=======
+INT_LIT  	 -8
+>>>>>>> main
 ')'
 SUB
 INT_LIT  	 10
 DIV
 INT_LIT  	 7
 GTR
+<<<<<<< HEAD
 SUB
 INT_LIT  	 4
+=======
+INT_LIT  	 -4
+>>>>>>> main
 MOD
 INT_LIT  	 3
 LOR
 NOT
+<<<<<<< HEAD
 BOOL_LIT 	 true
 LAN
 NOT
 NOT
 BOOL_LIT 	 false
+=======
+BOOL_LIT
+LAN
+NOT
+NOT
+BOOL_LIT
+>>>>>>> main
 ')'
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 '('
 FLOAT_LIT 	 3.0
@@ -71,8 +103,12 @@ MUL
 '('
 FLOAT_LIT 	 5.0
 ADD
+<<<<<<< HEAD
 SUB
 FLOAT_LIT 	 8.0
+=======
+FLOAT_LIT 	 -8.0
+>>>>>>> main
 ')'
 SUB
 FLOAT_LIT 	 10.0
@@ -82,7 +118,11 @@ FLOAT_LIT 	 7.0
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 FLOAT_LIT 	 3.0
 SUB
@@ -91,14 +131,19 @@ MUL
 '('
 FLOAT_LIT 	 5.0
 ADD
+<<<<<<< HEAD
 SUB
 FLOAT_LIT 	 8.0
+=======
+FLOAT_LIT 	 -8.0
+>>>>>>> main
 ')'
 SUB
 FLOAT_LIT 	 10.0
 DIV
 FLOAT_LIT 	 7.0
 GTR
+<<<<<<< HEAD
 SUB
 FLOAT_LIT 	 4.0
 LOR
@@ -112,20 +157,42 @@ SHL
 IDENT    	 endl
 ';'
 COUT
+=======
+FLOAT_LIT 	 -4.0
+LOR
+NOT
+BOOL_LIT
+LAN
+NOT
+NOT
+BOOL_LIT
+SHL
+IDENT    	 endl
+';'
+COUT
+>>>>>>> main
 SHL
 INT_LIT  	 1000000
 ADD
 INT_LIT  	 9
 MUL
 INT_LIT  	 1
+<<<<<<< HEAD
 SUB
 INT_LIT  	 1
+=======
+INT_LIT  	 -1
+>>>>>>> main
 ADD
 INT_LIT  	 2024
 ADD
 '('
+<<<<<<< HEAD
 SUB
 INT_LIT  	 398
+=======
+INT_LIT  	 -398
+>>>>>>> main
 ')'
 ADD
 '('
@@ -146,9 +213,16 @@ INT_LIT  	 0
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 RETURN
 INT_LIT  	 0
 ';'
 '}'
+=======
+RETURN
+INT_LIT  	 0
+';'
+'}'
+>>>>>>> main
 
 Total line: 10

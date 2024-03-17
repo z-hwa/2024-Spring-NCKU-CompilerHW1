@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
 INT_T
+=======
+INT_T
+>>>>>>> main
 IDENT    	 a
 '['
 INT_LIT  	 5
@@ -25,7 +29,11 @@ INT_LIT  	 40
 INT_LIT  	 50
 '}'
 ';'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 '['
@@ -62,6 +70,10 @@ INT_LIT  	 4
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
+=======
+'}'
+>>>>>>> main
 
 Total line: 4

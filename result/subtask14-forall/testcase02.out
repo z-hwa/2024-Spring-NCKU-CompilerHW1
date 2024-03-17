@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
 INT_T
+=======
+INT_T
+>>>>>>> main
 IDENT    	 a
 '['
 INT_LIT  	 3
@@ -16,7 +20,11 @@ INT_LIT  	 3
 INT_LIT  	 3
 ']'
 ';'
+<<<<<<< HEAD
 FOR
+=======
+FOR
+>>>>>>> main
 '('
 INT_T
 IDENT    	 i
@@ -30,8 +38,13 @@ INT_LIT  	 3
 IDENT    	 i
 INC_ASSIGN
 ')'
+<<<<<<< HEAD
 '{'
 FOR
+=======
+'{'
+FOR
+>>>>>>> main
 '('
 INT_T
 IDENT    	 j
@@ -45,8 +58,13 @@ INT_LIT  	 3
 IDENT    	 j
 INC_ASSIGN
 ')'
+<<<<<<< HEAD
 '{'
 IDENT    	 a
+=======
+'{'
+IDENT    	 a
+>>>>>>> main
 '['
 IDENT    	 i
 ']'
@@ -64,9 +82,15 @@ INT_LIT  	 998244353
 MOD
 INT_LIT  	 82781
 ';'
+<<<<<<< HEAD
 '}'
 '}'
 FOR
+=======
+'}'
+'}'
+FOR
+>>>>>>> main
 '('
 INT_T
 IDENT    	 i
@@ -80,8 +104,13 @@ INT_LIT  	 0
 IDENT    	 i
 DEC_ASSIGN
 ')'
+<<<<<<< HEAD
 '{'
 FOR
+=======
+'{'
+FOR
+>>>>>>> main
 '('
 INT_T
 IDENT    	 j
@@ -95,8 +124,13 @@ INT_LIT  	 3
 IDENT    	 j
 INC_ASSIGN
 ')'
+<<<<<<< HEAD
 '{'
 COUT
+=======
+'{'
+COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 '['
@@ -108,11 +142,20 @@ IDENT    	 j
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 '}'
 RETURN
 INT_LIT  	 0
 ';'
 '}'
+=======
+'}'
+'}'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+>>>>>>> main
 
 Total line: 20

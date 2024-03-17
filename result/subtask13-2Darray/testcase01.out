@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
 INT_T
+=======
+INT_T
+>>>>>>> main
 IDENT    	 a
 '['
 INT_LIT  	 3
@@ -16,7 +20,11 @@ INT_LIT  	 3
 INT_LIT  	 3
 ']'
 ';'
+<<<<<<< HEAD
 IDENT    	 a
+=======
+IDENT    	 a
+>>>>>>> main
 '['
 INT_LIT  	 0
 ']'
@@ -26,7 +34,11 @@ INT_LIT  	 0
 VAL_ASSIGN
 INT_LIT  	 1
 ';'
+<<<<<<< HEAD
 IDENT    	 a
+=======
+IDENT    	 a
+>>>>>>> main
 '['
 INT_LIT  	 0
 ']'
@@ -36,7 +48,11 @@ INT_LIT  	 1
 VAL_ASSIGN
 INT_LIT  	 2
 ';'
+<<<<<<< HEAD
 IDENT    	 a
+=======
+IDENT    	 a
+>>>>>>> main
 '['
 INT_LIT  	 0
 ']'
@@ -46,7 +62,11 @@ INT_LIT  	 2
 VAL_ASSIGN
 INT_LIT  	 3
 ';'
+<<<<<<< HEAD
 IDENT    	 a
+=======
+IDENT    	 a
+>>>>>>> main
 '['
 INT_LIT  	 1
 ']'
@@ -56,7 +76,11 @@ INT_LIT  	 1
 VAL_ASSIGN
 INT_LIT  	 4
 ';'
+<<<<<<< HEAD
 IDENT    	 a
+=======
+IDENT    	 a
+>>>>>>> main
 '['
 INT_LIT  	 2
 ']'
@@ -66,7 +90,11 @@ INT_LIT  	 2
 VAL_ASSIGN
 INT_LIT  	 5
 ';'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 '['
@@ -78,7 +106,11 @@ INT_LIT  	 0
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 '['
@@ -90,7 +122,11 @@ INT_LIT  	 1
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 '['
@@ -102,7 +138,11 @@ INT_LIT  	 2
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 '['
@@ -114,7 +154,11 @@ INT_LIT  	 1
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 '['
@@ -126,6 +170,10 @@ INT_LIT  	 2
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
+=======
+'}'
+>>>>>>> main
 
 Total line: 13

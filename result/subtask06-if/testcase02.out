@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
 INT_T
+=======
+INT_T
+>>>>>>> main
 IDENT    	 a
 VAL_ASSIGN
 INT_LIT  	 0
@@ -20,7 +24,11 @@ IDENT    	 c
 VAL_ASSIGN
 INT_LIT  	 10
 ';'
+<<<<<<< HEAD
 IF
+=======
+IF
+>>>>>>> main
 '('
 IDENT    	 a
 EQL
@@ -31,7 +39,11 @@ EQL
 INT_LIT  	 0
 ')'
 '{'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 SHL
@@ -41,8 +53,13 @@ IDENT    	 c
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 IF
+=======
+'}'
+IF
+>>>>>>> main
 '('
 IDENT    	 c
 SUB
@@ -51,14 +68,23 @@ GEQ
 INT_LIT  	 0
 ')'
 '{'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "OK!"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 IF
+=======
+'}'
+IF
+>>>>>>> main
 '('
 '('
 IDENT    	 a
@@ -75,16 +101,27 @@ EQL
 INT_LIT  	 10
 ')'
 '{'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "test1"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 ELSE
 '{'
 IF
+=======
+'}'
+ELSE
+'{'
+IF
+>>>>>>> main
 '('
 '('
 IDENT    	 c
@@ -125,32 +162,53 @@ INT_LIT  	 0
 ')'
 ')'
 '{'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "test2"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 ELSE
 '{'
 COUT
+=======
+'}'
+ELSE
+'{'
+COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "test3"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 IF
 '('
 BOOL_LIT 	 true
 ')'
 '{'
 COUT
+=======
+IF
+'('
+BOOL_LIT
+')'
+'{'
+COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "test4"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 '}'
 '}'
@@ -160,15 +218,34 @@ BOOL_LIT 	 true
 ')'
 '{'
 COUT
+=======
+'}'
+'}'
+'}'
+IF
+'('
+BOOL_LIT
+')'
+'{'
+COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "test6"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 RETURN
 INT_LIT  	 0
 ';'
 '}'
+=======
+'}'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+>>>>>>> main
 
 Total line: 31

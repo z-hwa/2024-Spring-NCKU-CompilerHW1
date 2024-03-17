@@ -7,48 +7,81 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
 INT_T
+=======
+INT_T
+>>>>>>> main
 IDENT    	 apple
 VAL_ASSIGN
 INT_LIT  	 0
 ';'
+<<<<<<< HEAD
 IF
+=======
+IF
+>>>>>>> main
 '('
 IDENT    	 apple
 EQL
 INT_LIT  	 0
 ')'
 '{'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "Hello"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 IF
+=======
+'}'
+IF
+>>>>>>> main
 '('
 IDENT    	 apple
 NEQ
 INT_LIT  	 0
 ')'
 '{'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "Hello"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 ELSE
 '{'
 COUT
+=======
+'}'
+ELSE
+'{'
+COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "Bye"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 '}'
 '}'
+=======
+'}'
+'}'
+>>>>>>> main
 
 Total line: 13

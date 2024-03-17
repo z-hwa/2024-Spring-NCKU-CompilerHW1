@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
 COUT
+=======
+COUT
+>>>>>>> main
 SHL
 CHAR_LIT 	 'H'
 SHL
@@ -35,6 +39,7 @@ CHAR_LIT 	 '!'
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 MULTI_COMMENT 	 /*  comment
     comment
 
@@ -48,3 +53,18 @@ INT_LIT  	 0
 '}'
 
 Total line: 11
+=======
+MULTI_COMMENT 	 /*  comment
+    comment
+
+
+
+    very good comment :P
+    */
+RETURN
+INT_LIT  	 0
+';'
+'}'
+
+Total line: 5
+>>>>>>> main
