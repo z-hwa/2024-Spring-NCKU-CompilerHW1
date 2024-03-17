@@ -15,7 +15,7 @@ digit [0-9]
 Integer [+-]?[0-9]+
 Float [+-]?([0-9]+.)?[0-9]+
 Identifier [a-zA-Z_]([a-zA-Z_]|[0-9])*
-string ["].*["]
+string ["][^"]*["]
 character ['].[']
 
 %x MULTI_COMMENT
