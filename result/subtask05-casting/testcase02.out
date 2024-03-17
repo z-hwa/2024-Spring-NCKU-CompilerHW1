@@ -6,8 +6,13 @@ IDENT    	 argv
 '['
 ']'
 ')'
+<<<<<<< HEAD
+'{'
+INT_T
+=======
 '{'
 INT_T
+>>>>>>> main
 IDENT    	 a
 VAL_ASSIGN
 INT_LIT  	 0
@@ -16,16 +21,28 @@ IDENT    	 b
 VAL_ASSIGN
 INT_LIT  	 0
 ';'
+<<<<<<< HEAD
+IDENT    	 a
+ADD_ASSIGN
+IDENT    	 b
+';'
+FLOAT_T
+=======
 IDENT    	 a
 ADD_ASSIGN
 IDENT    	 b
 ';'
 FLOAT_T
+>>>>>>> main
 IDENT    	 c
 VAL_ASSIGN
 FLOAT_LIT 	 3.14
 ';'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 d
 VAL_ASSIGN
 '('
@@ -40,30 +57,50 @@ INT_T
 ')'
 FLOAT_LIT 	 2024.3934
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 d
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 b
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 c
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+=======
 '}'
+>>>>>>> main
 
 Total line: 12

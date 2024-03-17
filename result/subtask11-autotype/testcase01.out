@@ -7,17 +7,30 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+AUTO_T
+=======
 AUTO_T
+>>>>>>> main
 IDENT    	 x
 VAL_ASSIGN
 FLOAT_LIT 	 6.0
 ';'
+<<<<<<< HEAD
+AUTO_T
+IDENT    	 y
+VAL_ASSIGN
+BOOL_LIT 	 true
+';'
+COUT
+=======
 AUTO_T
 IDENT    	 y
 VAL_ASSIGN
 BOOL_LIT
 ';'
 COUT
+>>>>>>> main
 SHL
 IDENT    	 x
 SHL
@@ -27,6 +40,10 @@ IDENT    	 y
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+=======
 '}'
+>>>>>>> main
 
 Total line: 6

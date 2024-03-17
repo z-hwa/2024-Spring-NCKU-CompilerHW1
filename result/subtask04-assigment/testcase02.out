@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 a
 ','
 IDENT    	 b
@@ -18,29 +22,64 @@ IDENT    	 d
 ','
 IDENT    	 e
 ';'
+<<<<<<< HEAD
+IDENT    	 a
+=======
 IDENT    	 a
+>>>>>>> main
 VAL_ASSIGN
 BNT
 INT_LIT  	 243
 BAN
 INT_LIT  	 15
 ';'
+<<<<<<< HEAD
+IDENT    	 b
+=======
 IDENT    	 b
+>>>>>>> main
 VAL_ASSIGN
 IDENT    	 a
 SHR
 INT_LIT  	 1
 ';'
+<<<<<<< HEAD
+IDENT    	 c
+VAL_ASSIGN
+IDENT    	 a
+';'
+IDENT    	 d
+=======
 IDENT    	 c
 VAL_ASSIGN
 IDENT    	 a
 ';'
 IDENT    	 d
+>>>>>>> main
 VAL_ASSIGN
 IDENT    	 b
 BOR
 INT_LIT  	 9
 ';'
+<<<<<<< HEAD
+IDENT    	 e
+VAL_ASSIGN
+IDENT    	 b
+';'
+IDENT    	 a
+ADD_ASSIGN
+IDENT    	 a
+';'
+IDENT    	 b
+ADD_ASSIGN
+IDENT    	 b
+';'
+IDENT    	 c
+DIV_ASSIGN
+IDENT    	 c
+';'
+COUT
+=======
 IDENT    	 e
 VAL_ASSIGN
 IDENT    	 b
@@ -58,6 +97,7 @@ DIV_ASSIGN
 IDENT    	 c
 ';'
 COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 SHL
@@ -79,32 +119,56 @@ IDENT    	 e
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 e
+=======
 IDENT    	 e
+>>>>>>> main
 VAL_ASSIGN
 INT_LIT  	 100
 BXO
 INT_LIT  	 255
 ';'
+<<<<<<< HEAD
+IDENT    	 e
+SHL_ASSIGN
+INT_LIT  	 2
+';'
+COUT
+=======
 IDENT    	 e
 SHL_ASSIGN
 INT_LIT  	 2
 ';'
 COUT
+>>>>>>> main
 SHL
 IDENT    	 e
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 e
+SHR_ASSIGN
+INT_LIT  	 4
+';'
+COUT
+=======
 IDENT    	 e
 SHR_ASSIGN
 INT_LIT  	 4
 ';'
 COUT
+>>>>>>> main
 SHL
 IDENT    	 e
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+=======
 '}'
+>>>>>>> main
 
 Total line: 19

@@ -7,12 +7,20 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 x
 VAL_ASSIGN
 INT_LIT  	 0
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 x
@@ -20,11 +28,19 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 x
+VAL_ASSIGN
+INT_LIT  	 10
+';'
+COUT
+=======
 IDENT    	 x
 VAL_ASSIGN
 INT_LIT  	 10
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 x
@@ -32,11 +48,19 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 x
+ADD_ASSIGN
+INT_LIT  	 2
+';'
+COUT
+=======
 IDENT    	 x
 ADD_ASSIGN
 INT_LIT  	 2
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 x
@@ -44,11 +68,19 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 x
+SUB_ASSIGN
+INT_LIT  	 3
+';'
+COUT
+=======
 IDENT    	 x
 SUB_ASSIGN
 INT_LIT  	 3
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 x
@@ -56,11 +88,19 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 x
+MUL_ASSIGN
+INT_LIT  	 4
+';'
+COUT
+=======
 IDENT    	 x
 MUL_ASSIGN
 INT_LIT  	 4
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 x
@@ -68,11 +108,19 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 x
+DIV_ASSIGN
+INT_LIT  	 5
+';'
+COUT
+=======
 IDENT    	 x
 DIV_ASSIGN
 INT_LIT  	 5
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 x
@@ -80,11 +128,19 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 x
+REM_ASSIGN
+INT_LIT  	 6
+';'
+COUT
+=======
 IDENT    	 x
 REM_ASSIGN
 INT_LIT  	 6
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 x
@@ -92,11 +148,19 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 x
+BOR_ASSIGN
+INT_LIT  	 4092
+';'
+COUT
+=======
 IDENT    	 x
 BOR_ASSIGN
 INT_LIT  	 4092
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 x
@@ -104,11 +168,19 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 x
+BAN_ASSIGN
+INT_LIT  	 255
+';'
+COUT
+=======
 IDENT    	 x
 BAN_ASSIGN
 INT_LIT  	 255
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 x
@@ -116,12 +188,20 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+FLOAT_T
+=======
 FLOAT_T
+>>>>>>> main
 IDENT    	 yy
 VAL_ASSIGN
 FLOAT_LIT 	 3.14
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 yy
@@ -129,11 +209,19 @@ IDENT    	 yy
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 yy
+VAL_ASSIGN
+FLOAT_LIT 	 10.4
+';'
+COUT
+=======
 IDENT    	 yy
 VAL_ASSIGN
 FLOAT_LIT 	 10.4
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 yy
@@ -141,11 +229,19 @@ IDENT    	 yy
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 yy
+ADD_ASSIGN
+FLOAT_LIT 	 2.0
+';'
+COUT
+=======
 IDENT    	 yy
 ADD_ASSIGN
 FLOAT_LIT 	 2.0
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 yy
@@ -153,11 +249,19 @@ IDENT    	 yy
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 yy
+SUB_ASSIGN
+FLOAT_LIT 	 3.0
+';'
+COUT
+=======
 IDENT    	 yy
 SUB_ASSIGN
 FLOAT_LIT 	 3.0
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 yy
@@ -165,11 +269,19 @@ IDENT    	 yy
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 yy
+MUL_ASSIGN
+FLOAT_LIT 	 4.0
+';'
+COUT
+=======
 IDENT    	 yy
 MUL_ASSIGN
 FLOAT_LIT 	 4.0
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 yy
@@ -177,11 +289,19 @@ IDENT    	 yy
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 yy
+DIV_ASSIGN
+FLOAT_LIT 	 5.0
+';'
+COUT
+=======
 IDENT    	 yy
 DIV_ASSIGN
 FLOAT_LIT 	 5.0
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 yy
@@ -189,12 +309,20 @@ IDENT    	 yy
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+STR_T
+=======
 STR_T
+>>>>>>> main
 IDENT    	 s
 VAL_ASSIGN
 STRING_LIT 	 ""
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 s
@@ -202,11 +330,19 @@ IDENT    	 s
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 s
+VAL_ASSIGN
+STRING_LIT 	 "Hello"
+';'
+COUT
+=======
 IDENT    	 s
 VAL_ASSIGN
 STRING_LIT 	 "Hello"
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 s
@@ -214,12 +350,21 @@ IDENT    	 s
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+BOOL_T
+IDENT    	 bbb
+VAL_ASSIGN
+BOOL_LIT 	 false
+';'
+COUT
+=======
 BOOL_T
 IDENT    	 bbb
 VAL_ASSIGN
 BOOL_LIT
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 bbb
@@ -227,11 +372,19 @@ IDENT    	 bbb
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 bbb
+VAL_ASSIGN
+BOOL_LIT 	 true
+';'
+COUT
+=======
 IDENT    	 bbb
 VAL_ASSIGN
 BOOL_LIT
 ';'
 COUT
+>>>>>>> main
 SHL
 '('
 IDENT    	 bbb
@@ -239,6 +392,10 @@ IDENT    	 bbb
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+=======
 '}'
+>>>>>>> main
 
 Total line: 43

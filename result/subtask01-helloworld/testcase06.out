@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "Hell"
 SHL
@@ -21,9 +25,16 @@ STRING_LIT 	 "rld"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+RETURN
+INT_LIT  	 0
+';'
+'}'
+=======
 RETURN
 INT_LIT  	 0
 ';'
 '}'
+>>>>>>> main
 
 Total line: 4

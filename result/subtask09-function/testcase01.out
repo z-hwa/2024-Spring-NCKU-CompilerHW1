@@ -14,13 +14,21 @@ BOOL_T
 IDENT    	 c
 ')'
 '{'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 s
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 a
 SHL
@@ -34,6 +42,17 @@ IDENT    	 s
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+RETURN
+'('
+IDENT    	 c
+EQL
+BOOL_LIT 	 true
+')'
+';'
+'}'
+INT_T
+=======
 RETURN
 '('
 IDENT    	 c
@@ -43,6 +62,7 @@ BOOL_LIT
 ';'
 '}'
 INT_T
+>>>>>>> main
 IDENT    	 main
 '('
 STR_T
@@ -51,11 +71,27 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+BOOL_T
+=======
 BOOL_T
+>>>>>>> main
 IDENT    	 result
 VAL_ASSIGN
 IDENT    	 check
 '('
+<<<<<<< HEAD
+INT_LIT  	 1
+','
+INT_LIT  	 2
+','
+STRING_LIT 	 "apple"
+','
+BOOL_LIT 	 true
+')'
+';'
+INT_T
+=======
 FLOAT_LIT 	 1,2
 ','
 STRING_LIT 	 "apple"
@@ -64,21 +100,33 @@ BOOL_LIT
 ')'
 ';'
 INT_T
+>>>>>>> main
 IDENT    	 num
 VAL_ASSIGN
 IDENT    	 result
 ADD
 INT_LIT  	 7
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 num
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+RETURN
+INT_LIT  	 0
+';'
+'}'
+=======
 RETURN
 INT_LIT  	 0
 ';'
 '}'
+>>>>>>> main
 
 Total line: 12

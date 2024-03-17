@@ -7,33 +7,56 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 counter
 VAL_ASSIGN
 INT_LIT  	 0
 ';'
+<<<<<<< HEAD
+WHILE
+=======
 WHILE
+>>>>>>> main
 '('
 IDENT    	 counter
 LES
 INT_LIT  	 100000
 ')'
 '{'
+<<<<<<< HEAD
+IDENT    	 counter
+ADD_ASSIGN
+INT_LIT  	 1
+';'
+IF
+=======
 IDENT    	 counter
 ADD_ASSIGN
 INT_LIT  	 1
 ';'
 IF
+>>>>>>> main
 '('
 IDENT    	 counter
 EQL
 INT_LIT  	 99999
 ')'
 '{'
+<<<<<<< HEAD
+BREAK
+';'
+'}'
+IF
+=======
 BREAK
 ';'
 '}'
 IF
+>>>>>>> main
 '('
 IDENT    	 counter
 MOD
@@ -42,7 +65,11 @@ EQL
 INT_LIT  	 0
 ')'
 '{'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "Hello World "
 SHL
@@ -52,8 +79,13 @@ INT_LIT  	 91
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+COUT
+=======
 '}'
 COUT
+>>>>>>> main
 SHL
 INT_LIT  	 998244353
 MOD
@@ -61,13 +93,22 @@ IDENT    	 counter
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+COUT
+=======
 '}'
 COUT
+>>>>>>> main
 SHL
 IDENT    	 counter
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+=======
 '}'
+>>>>>>> main
 
 Total line: 18

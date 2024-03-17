@@ -7,12 +7,20 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 c
 VAL_ASSIGN
 INT_LIT  	 10
 ';'
+<<<<<<< HEAD
+FOR
+=======
 FOR
+>>>>>>> main
 '('
 INT_T
 IDENT    	 i
@@ -27,14 +35,23 @@ IDENT    	 i
 INC_ASSIGN
 ')'
 '{'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "Hello world"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+FOR
+=======
 '}'
 FOR
+>>>>>>> main
 '('
 ';'
 IDENT    	 c
@@ -46,16 +63,28 @@ SUB_ASSIGN
 INT_LIT  	 1
 ')'
 '{'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "apple!"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+=======
 '}'
 RETURN
 INT_LIT  	 0
 ';'
 '}'
+>>>>>>> main
 
 Total line: 11

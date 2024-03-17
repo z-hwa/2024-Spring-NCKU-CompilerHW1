@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 a
 VAL_ASSIGN
 INT_LIT  	 0
@@ -20,19 +24,32 @@ IDENT    	 c
 VAL_ASSIGN
 INT_LIT  	 10
 ';'
+<<<<<<< HEAD
+WHILE
+=======
 WHILE
+>>>>>>> main
 '('
 IDENT    	 c
 NEQ
 INT_LIT  	 0
 ')'
 '{'
+<<<<<<< HEAD
+IDENT    	 c
+SUB_ASSIGN
+INT_LIT  	 1
+';'
+'}'
+WHILE
+=======
 IDENT    	 c
 SUB_ASSIGN
 INT_LIT  	 1
 ';'
 '}'
 WHILE
+>>>>>>> main
 '('
 '('
 IDENT    	 a
@@ -61,6 +78,25 @@ INT_LIT  	 0
 ')'
 ')'
 '{'
+<<<<<<< HEAD
+IDENT    	 a
+SUB_ASSIGN
+INT_LIT  	 1
+';'
+IDENT    	 b
+SUB_ASSIGN
+INT_LIT  	 1
+';'
+IDENT    	 c
+SUB_ASSIGN
+INT_LIT  	 1
+';'
+'}'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+=======
 IDENT    	 a
 SUB_ASSIGN
 INT_LIT  	 1
@@ -78,5 +114,6 @@ INT_LIT  	 1
 INT_LIT  	 0
 ';'
 '}'
+>>>>>>> main
 
 Total line: 14

@@ -7,22 +7,38 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 x
 VAL_ASSIGN
 INT_LIT  	 3
 ';'
+<<<<<<< HEAD
+FLOAT_T
+=======
 FLOAT_T
+>>>>>>> main
 IDENT    	 y
 VAL_ASSIGN
 FLOAT_LIT 	 3.14
 ';'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 z1
 ','
 IDENT    	 z2
 ';'
+<<<<<<< HEAD
+IDENT    	 z1
+=======
 IDENT    	 z1
+>>>>>>> main
 VAL_ASSIGN
 IDENT    	 x
 ADD
@@ -33,7 +49,11 @@ INT_T
 IDENT    	 y
 ')'
 ';'
+<<<<<<< HEAD
+IDENT    	 z2
+=======
 IDENT    	 z2
+>>>>>>> main
 VAL_ASSIGN
 '('
 FLOAT_T
@@ -42,7 +62,11 @@ IDENT    	 x
 ADD
 IDENT    	 y
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 z1
 SHL
@@ -52,7 +76,11 @@ IDENT    	 z2
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IDENT    	 z1
+=======
 IDENT    	 z1
+>>>>>>> main
 VAL_ASSIGN
 IDENT    	 x
 ADD
@@ -63,7 +91,11 @@ INT_T
 FLOAT_LIT 	 6.28
 ')'
 ';'
+<<<<<<< HEAD
+IDENT    	 z2
+=======
 IDENT    	 z2
+>>>>>>> main
 VAL_ASSIGN
 '('
 FLOAT_T
@@ -74,21 +106,36 @@ INT_LIT  	 6
 ADD
 IDENT    	 y
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 z1
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 z2
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+RETURN
+INT_LIT  	 0
+';'
+'}'
+=======
 RETURN
 INT_LIT  	 0
 ';'
 '}'
+>>>>>>> main
 
 Total line: 15

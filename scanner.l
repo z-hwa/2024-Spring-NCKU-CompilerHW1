@@ -3,17 +3,20 @@
     #define YY_NO_UNPUT
     #define YY_NO_INPUT
     #define printToken(token, value) (value ? printf("%-8s \t %s\n", token, (char*)value) : printf("%s\n", token))
+    #define printComment(token) printf("%-8s \t ", token)
+    #define printCValue(value) printf("%s\n", value)
 
     FILE* fout;
 %}
 
 /* Define regular expression label */
 
+
 letter [a-zA-Z_]
 digit [0-9]
 
-Integer [+-]?[0-9]+
-Float [+-]?([0-9]+.)?[0-9]+
+Integer [0-9]+
+Float ([0-9]+\.)?[0-9]+
 Identifier [a-zA-Z_]([a-zA-Z_]|[0-9])*
 string ["][^"]*["]
 character ['].[']
@@ -26,12 +29,15 @@ character ['].[']
 "//".*      { printToken("COMMENT", yytext); }
 " "         { ; }
 "\n"        { yylineno++; }
-"/*"        {   yymore();
-                BEGIN MULTI_COMMENT; }
+"/*"        { yymore();
+	      printComment("MULTI_COMMENT");
+              BEGIN MULTI_COMMENT;}
 
+<MULTI_COMMENT>"\n"	    { yylineno++;
+			      yymore(); }
 <MULTI_COMMENT>[^(*/)]      { yymore(); }
-<MULTI_COMMENT>"*/"         {   printToken("MULTI_COMMENT", yytext); 
-                                BEGIN INITIAL; }
+<MULTI_COMMENT>"*/"         { printCValue(yytext);
+			      BEGIN INITIAL; }
 
 ">>"        { printToken("SHR", NULL); }
 "<<"        { printToken("SHL", NULL); }
@@ -93,8 +99,8 @@ character ['].[']
 "while"       { printToken("WHILE", NULL); }
 "return"      { printToken("RETURN", NULL); }
 "break"       { printToken("BREAK", NULL); }
-"true"        { printToken("BOOL_LIT", NULL); }
-"false"       { printToken("BOOL_LIT", NULL); }
+"true"        { printToken("BOOL_LIT", yytext); }
+"false"       { printToken("BOOL_LIT", yytext); }
 
 {Integer}         { printToken("INT_LIT", yytext); }
 {Float}           { printToken("FLOAT_LIT", yytext); }

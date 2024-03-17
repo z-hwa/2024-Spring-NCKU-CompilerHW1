@@ -8,7 +8,11 @@ INT_T
 IDENT    	 mod
 ')'
 '{'
+<<<<<<< HEAD
+IF
+=======
 IF
+>>>>>>> main
 '('
 IDENT    	 num
 LES
@@ -21,7 +25,12 @@ ADD
 '('
 IDENT    	 num
 MUL
+<<<<<<< HEAD
+SUB
+INT_LIT  	 1
+=======
 INT_LIT  	 -1
+>>>>>>> main
 DIV
 IDENT    	 mod
 ADD
@@ -31,49 +40,90 @@ MUL
 IDENT    	 mod
 ')'
 ';'
+<<<<<<< HEAD
 COMMENT  	 // cool!
+=======
+COMMENT  	 // cool!
+>>>>>>> main
 RETURN
 IDENT    	 num
 MOD
 IDENT    	 mod
 ';'
+<<<<<<< HEAD
+'}'
+VOID_T
+=======
 '}'
 VOID_T
+>>>>>>> main
 IDENT    	 nothing_function
 '('
 STR_T
 IDENT    	 s
 ')'
 '{'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 s
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+COUT
+SHL
+IDENT    	 mod
+'('
+INT_LIT  	 10000000007
+','
+INT_LIT  	 99824353
+=======
 COUT
 SHL
 IDENT    	 mod
 '('
 FLOAT_LIT 	 10000000007,99824353
+>>>>>>> main
 ')'
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
 COMMENT  	 // very big number!
+=======
+COMMENT  	 // very big number!
+>>>>>>> main
 COUT
 SHL
 IDENT    	 mod
 '('
+<<<<<<< HEAD
+SUB
+INT_LIT  	 10
+','
+INT_LIT  	 2
+=======
 FLOAT_LIT 	 -10,2
+>>>>>>> main
 ')'
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+RETURN
+';'
+'}'
+INT_T
+=======
 RETURN
 ';'
 '}'
 INT_T
+>>>>>>> main
 IDENT    	 main
 '('
 STR_T
@@ -82,11 +132,29 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+IDENT    	 nothing_function
+=======
 IDENT    	 nothing_function
+>>>>>>> main
 '('
 STRING_LIT 	 "Hello world"
 ')'
 ';'
+<<<<<<< HEAD
+COMMENT  	 // comment
+MULTI_COMMENT 	 /*
+multi comment
+    Tab \t
+    Space
+* star *
+*/
+MULTI_COMMENT 	 /**
+ * Cool multi comment
+ */
+MULTI_COMMENT 	 /*Flowing multi comment*/
+COMMENT  	 //Flowing comment
+=======
 COMMENT  	 // comment
 /*
 multi comment
@@ -99,17 +167,26 @@ multi comment
  */
 MULTI_COMMENT 	 /*Flowing multi comment*/
 COMMENT  	 //Flowing comment
+>>>>>>> main
 INT_T
 IDENT    	 apple
 VAL_ASSIGN
 INT_LIT  	 99824353
 ';'
+<<<<<<< HEAD
+IDENT    	 nothing_function
+=======
 IDENT    	 nothing_function
+>>>>>>> main
 '('
 STRING_LIT 	 "apple!"
 ')'
 ';'
+<<<<<<< HEAD
+IF
+=======
 IF
+>>>>>>> main
 '('
 IDENT    	 mod
 '('
@@ -123,14 +200,22 @@ EQL
 INT_LIT  	 1
 ')'
 '{'
+<<<<<<< HEAD
+IF
+=======
 IF
+>>>>>>> main
 '('
 IDENT    	 apple
 EQL
 INT_LIT  	 998244353
 ')'
 '{'
+<<<<<<< HEAD
+FOR
+=======
 FOR
+>>>>>>> main
 '('
 INT_T
 IDENT    	 i
@@ -147,32 +232,55 @@ INT_LIT  	 1
 ')'
 '{'
 MULTI_COMMENT 	 /* for loop */
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 q
 VAL_ASSIGN
 INT_LIT  	 10
 ';'
+<<<<<<< HEAD
+WHILE
+=======
 WHILE
+>>>>>>> main
 '('
 IDENT    	 q
 NEQ
 INT_LIT  	 0
 ')'
 MULTI_COMMENT 	 /* while loop */
+<<<<<<< HEAD
+'{'
+IDENT    	 q
+SUB_ASSIGN
+INT_LIT  	 1
+';'
+COUT
+=======
 '{'
 IDENT    	 q
 SUB_ASSIGN
 INT_LIT  	 1
 ';'
 COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "OK!"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+'}'
+FOR
+=======
 '}'
 '}'
 FOR
+>>>>>>> main
 '('
 INT_T
 IDENT    	 i
@@ -188,7 +296,11 @@ ADD_ASSIGN
 INT_LIT  	 2
 ')'
 '{'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 q
 VAL_ASSIGN
 IDENT    	 mod
@@ -198,36 +310,63 @@ IDENT    	 apple
 INT_LIT  	 2
 ')'
 ';'
+<<<<<<< HEAD
+WHILE
+=======
 WHILE
+>>>>>>> main
 '('
 IDENT    	 q
 GTR
 INT_LIT  	 0
 ')'
 '{'
+<<<<<<< HEAD
+IDENT    	 q
+SUB_ASSIGN
+INT_LIT  	 1
+';'
+COUT
+=======
 IDENT    	 q
 SUB_ASSIGN
 INT_LIT  	 1
 ';'
 COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "OK!"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+'}'
+'}'
+ELSE
+'{'
+IDENT    	 nothing_function
+=======
 '}'
 '}'
 '}'
 ELSE
 '{'
 IDENT    	 nothing_function
+>>>>>>> main
 '('
 STRING_LIT 	 "something wrong"
 ')'
 ';'
+<<<<<<< HEAD
+'}'
+'}'
+COUT
+=======
 '}'
 '}'
 COUT
+>>>>>>> main
 SHL
 IDENT    	 mod
 '('
@@ -238,6 +377,18 @@ INT_LIT  	 2
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+COMMENT  	 // comment
+MULTI_COMMENT 	 /*
+multi comment
+    Tab \t
+    Space
+* star *
+*/
+MULTI_COMMENT 	 /**
+ * Cool multi comment
+=======
 '}'
 COMMENT  	 // comment
 /*
@@ -248,8 +399,13 @@ multi comment
 */
 /**
  *MULTI_COMMENT 	  Cool multi comment
+>>>>>>> main
  */
 MULTI_COMMENT 	 /*Flowing multi comment*/
 COMMENT  	 //Flowing comment
 
+<<<<<<< HEAD
+Total line: 61
+=======
 Total line: 47
+>>>>>>> main

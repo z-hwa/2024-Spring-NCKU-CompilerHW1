@@ -7,7 +7,11 @@ IDENT    	 argv
 ']'
 ')'
 '{'
+<<<<<<< HEAD
+INT_T
+=======
 INT_T
+>>>>>>> main
 IDENT    	 a
 '['
 INT_LIT  	 10
@@ -25,7 +29,11 @@ INT_LIT  	 41
 INT_LIT  	 50
 '}'
 ';'
+<<<<<<< HEAD
+FOR
+=======
 FOR
+>>>>>>> main
 '('
 AUTO_T
 IDENT    	 i
@@ -33,13 +41,21 @@ IDENT    	 i
 IDENT    	 a
 ')'
 '{'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 IDENT    	 i
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+IF
+=======
 IF
+>>>>>>> main
 '('
 IDENT    	 i
 MOD
@@ -48,14 +64,24 @@ EQL
 INT_LIT  	 0
 ')'
 '{'
+<<<<<<< HEAD
+COUT
+=======
 COUT
+>>>>>>> main
 SHL
 STRING_LIT 	 "Even"
 SHL
 IDENT    	 endl
 ';'
+<<<<<<< HEAD
+'}'
+'}'
+'}'
+=======
 '}'
 '}'
 '}'
+>>>>>>> main
 
 Total line: 11
